@@ -32,7 +32,7 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphLengthCounter
         /// <summary>
         /// Counts how many words and how many times appears within each paragraph in a document, and checks the matching percentage.
         /// </summary>
-        /// <returns>The matching's results.</returns>
+        /// <returns>hgfgh matcgfdhing's results.</returns>
         public override ComparatorMatchingScore Run(){      
             //Papopepoparaprapapap
             Dictionary<float, int[]> counter = new Dictionary<float, int[]>();
