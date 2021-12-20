@@ -34,7 +34,7 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphLengthCounter
         /// </summary>
         /// <returns>The matching's results.</returns>
         public override ComparatorMatchingScore Run(){      
-            //Counting the words appearences for each document (left and right).
+            //Papopepoparaprapapap
             Dictionary<float, int[]> counter = new Dictionary<float, int[]>();
             foreach(float length in this.Left.Lengths.Select(x => x.Key)){
                 if(!counter.ContainsKey(length)) counter.Add(length, new int[]{0, 0});
